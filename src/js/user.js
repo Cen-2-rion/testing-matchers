@@ -1,4 +1,4 @@
 // функция сортировки здоровья по убыванию
-export function getSortedHealthHeroes(heroes) {
+export default function getSortedHealthHeroes(heroes) {
   return heroes.sort((a, b) => b.health - a.health);
 }
